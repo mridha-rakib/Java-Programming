@@ -1,0 +1,18 @@
+package DataStructure;
+
+import java.util.*;
+
+
+public class LongestSubArraySum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] a = { -1, 1, 1};
+        int k = 1;
+        int len = getLongestSubarray(a, k);
+        System.out.println("The length of the longest subarray is: " + len);
+		
+	}
+
+}

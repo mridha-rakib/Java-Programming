@@ -1,0 +1,17 @@
+package DataStructure;
+
+public class twoSum_hashtable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 5;
+		
+		int[] arr = {2, 6, 5, 8, 11};
+		int target = 14;
+		
+		int[] ans = twoSum( n, arr, target );
+		System.out.println(ans[0] +" " +ans[1]);
+
+	}
+
+}

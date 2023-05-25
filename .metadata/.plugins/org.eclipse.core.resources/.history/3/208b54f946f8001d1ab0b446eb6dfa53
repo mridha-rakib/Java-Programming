@@ -1,0 +1,27 @@
+package DataStructure;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map
+public class SubArrayZeroSum {
+	
+	public static void printAllSubarrays(int[] nums)
+    {
+		for ( int i = 0; i < nums.length; i++ )
+		{
+			int sum = 0;
+			
+			for ()
+		}
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] nums = { 3, 4, -7, 3, 1, 3, 1, -4, -2, -2 };
+		 
+        printAllSubarrays(nums);
+
+	}
+
+}
