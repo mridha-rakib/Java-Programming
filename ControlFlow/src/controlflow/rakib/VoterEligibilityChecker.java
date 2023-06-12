@@ -1,15 +1,16 @@
 package controlflow.rakib;
 
 import java.util.Scanner;
+import java.io.*;
 
 public class VoterEligibilityChecker {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner input = new Scanner(System.in);
+		Scanner Sc = new Scanner(System.in);
 		
 		System.out.print("Enter your  age : ");
-		int age = input.nextInt();
+		int age = Sc.nextInt();
 		
 		if ( age >= 18 )
 			System.out.println("Congratulations! you are eligible to vote");
